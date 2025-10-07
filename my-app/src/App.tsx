@@ -1,4 +1,8 @@
 import React from "react";
+import "./style.css";
+import Star from "./images/Star.tsx";
+import BestResult from "./images/BestResult.tsx";
+import Man from "./images/Man.tsx";
 
 function App() {
     return (
@@ -8,11 +12,11 @@ function App() {
                     Успейте открыть пробную неделю
                 </div>
                 <div className="timer-row">
-                    {/* star*/}
+                    <Star/>
                     <div className="timer">
                         12:58
                     </div>
-                    {/* star*/}
+                    <Star/>
                 </div>
             </header>
 
@@ -22,14 +26,13 @@ function App() {
                 </h1>
 
                 <div className="main-container">
-                    {/*man*/}
-
+                    <Man/>
                     <form className="offer-section">
                         <div className="prices-container">
                             {/*price card in for  button??? */}
                         </div>
                         <div className="best-result">
-                            {/*!*/}
+                            <BestResult/>
                             <p className="best-result-text">Следуя плану на 3 месяца и более, люди получают в 2 раза
                                 лучший результат, чем за 1 месяц</p>
                         </div>
