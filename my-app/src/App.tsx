@@ -3,8 +3,11 @@ import "./style.css";
 import Star from "./images/Star.tsx";
 import BestResult from "./images/BestResult.tsx";
 import Man from "./images/Man.tsx";
+import Card from "./Card/Card.tsx";
 
 function App() {
+
+
     return (
         <>
             <header>
@@ -29,7 +32,15 @@ function App() {
                     <Man/>
                     <form className="offer-section">
                         <div className="prices-container">
-                            {/*price card in for  button??? */}
+                            <Card is_sale_active={true} text={''} price={300} period={'6hhhh'} full_price={800}
+                                  is_best={true}/>
+                            <Card is_sale_active={true} text={''} price={300} period={'6hhhh'} full_price={800}
+                                  is_best={true}/>
+                            <Card is_sale_active={true} text={''} price={300} period={'6hhhh'} full_price={800}
+                                  is_best={true}/>
+                            <Card is_sale_active={true} text={''} price={300} period={'6hhhh'} full_price={800}
+                                  is_best={true}/>
+
                         </div>
                         <div className="best-result">
                             <BestResult/>
