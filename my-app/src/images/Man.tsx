@@ -1,10 +1,12 @@
-const Man = () => (
+const Man= ()  => (
     <svg
-        width="381"
-        height="767"
+
         viewBox="0 0 381 767"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        width="100%"
+        height="100%"
+        className="man"
     >
         <rect width="380.728" height="767" fill="url(#pattern0_7055_85)" />
         <rect y="687" width="362" height="80" fill="url(#paint0_linear_7055_85)" />
